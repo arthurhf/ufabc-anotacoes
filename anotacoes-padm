@@ -1,0 +1,30 @@
+Aula 1
+    Api level:  muda a quantidade de recursos que temos acesso na hora de codar a aplicação
+                api antigas -> mais devices compatíveis, porém menos recursos
+                api recentes -> menos devices, porém mais recursos                
+    androidx.*artifacts:  bibliotecas do android
+    Kotlin linguagem oficial do android
+    MainActivity cria o layout
+    Toda a aplicação Android é estruturada em volta das atividades. 
+    
+    Cada atividade é uma tela.
+    
+    Instalação dos apps podem ser via repositório (Play Store) ou manualmente, baixando diretamente a apk - escrita em java
+    Arquitetura:  ARM, x86, MIPS; 32 e 64 bits
+    Requisitos mínimos (Android 4.4): 512Mb RAM, ARMv7, OpenGL ES 2.0 GPU
+    Arquitetura:  (bottom) Linux Kernel -> Bibliotecas (SQLite, OpenGL, WebKit, SSL, SGL, libc) e Android Runtime (máquina virtual Java) -> Framework de aplicação (Activity Manager, Window Manager, Location Manager, View System, Package Manager, etc.) -> (top) Aplicações (Home, Contacts, Phone, Browser, etc.)
+    Jogos são criados em c++ (baixo nível)
+    Aplicações se comunicam via Binder (IPC) nas versões Android 5.0, 6.0, 8.0
+    Sistema de partição GPT
+    Sistemas de arquivo Yaffs (memórias flash)
+    Super usuário não é exposto
+    Aplicativos com a mesma assinatura digital podem compartilhar processos (ver mais)
+    
+    Componentes fundamentais: Activity, Intent, Service, Content Provider, Broadcast Receiver.
+    Activity: tela
+    Service:  "Segundo plano"
+    Broadcast Receiver: comunicação entre os componentes sem vazar memória
+    
+    Android Manifest: todos os aplicativos tem que terintent-filter
+    
+    

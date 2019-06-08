@@ -1,0 +1,33 @@
+"Linguagem Funcional é o Emo dos paradigmas de programação"
+
+Aula 1
+
+  Códigos concisos e declarativos:  declaramos o que queremos
+  
+  Sistema de tipagem forte: precisamos especificar conversões para "juntar" tipos diferentes de dados
+  
+  Compreensão de listas:  notação parecida com a de matemática
+  
+  Imutabilidade:  não existe conceito de variável, apenas nomes e declarações. Um nome declarado com um valor não pode sofrer alterações. Vantagem: em programação paralela não temos o problema de threads tentarem mudar o valor da variável ao mesmo tempo.
+  
+  Funções Recursivas: a imutabilidade faz com que não temos mais de laços de repetição (não temos iteradores).
+  
+  Funções de alta ordem:  funções podem receber funções como parâmetros. Dá vontade de colocar parênteses, mas é FEIO!
+  
+  Tipos polimórficos: permite definir funções genéricas que funcionam para classes de tipos.
+  
+  Avaliação preguiçosa: ao aplicar uma função o resultado será computado apenas quando requisitado. Isso permite evitar computações desnecessárias e permite estruturas de dados infinitos. Obs: listas são sempre O(n) para acessar um elemento específico.
+  
+  Raciocínio equacional:  usar expressões algébricas para otimizar o programa ou provar sua corretude.
+  
+  
+  Compilador: GHC
+  Stack no Linux (não usar apt-get):  curl -sSL https://get.haskellstack.org/ | sh
+                                      ou 
+                                      wget -qO- https://get.haskellstack.org/ | sh
+                                      
+  Editores de texto:  todos os DECENTES.
+  Interpretador GHCi: converte automaticamente os tipos dos números (liberdade poética), a menos que o tipo seja declarado explicitamente.
+  
+  
+  Para saber a prioridade de um operador basta digitar: ":i (+)"
