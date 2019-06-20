@@ -31,3 +31,26 @@ Aula 1
   
   
   Para saber a prioridade de um operador basta digitar: ":i (+)"
+
+___________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+Aula 6
+  Cálculo lambda
+
+	Church: qual o mínimo possível para definir uma linguagem de programação?
+	Conseguimos descrever a computação apenas com FUNÇÕES!!!! Lambda Calculus =)
+	Uma expressão em cálculo Lambda pode ser composta de três elementos:
+		Variáveis
+		Definição de funções, também chamada de abstação (ou função anônima ou função Lambda)
+		Aplicação de funções
+
+	Em haskell:
+		'Lambda' vira '\'
+		'.' vira '->'
+
+	Exemplo, função identidade:
+
+		Lambdax.x	vira	\x->x
+
+	Haskell tem maneiras de escrever expressões em calculo Lambda de maneiras diferentes (com menos caracteres) - ver slides.
+
+	Escopo: \x -> e	, sendo 'e' uma expressão qualquer, x só é acessível DENTRO de 'e'. Qualquer 'x' dentro de 'e' está LIGADO ao 'x' do '\x'.
