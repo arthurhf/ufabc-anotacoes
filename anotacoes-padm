@@ -26,5 +26,16 @@ Aula 1
     Broadcast Receiver: comunicação entre os componentes sem vazar memória
     
     Android Manifest: todos os aplicativos tem que terintent-filter
-    
+________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+Aula 7
+
+Fragmento é um recurso de modularização de Atividades que pode ser reusado. É muito útil para promover adaptação de conteúdo. Deve ter alta coesão (executar uma tarefa bem delimitada) e baixo acoplamento (não depender de outros componentes)
+	Sempre é subordinado a uma Atividade - seu host - e tem seu ciclo de vida atrelado ao da Atividade.
+
+Adaptação de conteúdo: tela, interação (toque, voz, gesto) e internacionalização (idioma)
+	Tela: selecionar via bucket (xlarge, large, normal, small - ver documentação), via smallest width (ver doc.), Declarativa (seletor de bucket) ou Imperativa (detectar a tela no momento da execução) 
+		Declarativa: Podemos definir dois tipos de layout em res/layout-xlarge para dispositivos xlarge p.e.
+			new -> layout resource file -> dar um nome, escolher um qualificador e setar os valores -> verificar o diretorio onde o xml será salvo -> criar
+		Imperativa: if else no código
+	Internacionalização: arquivo strings para cada língua. O app detecta os settings do device e altera os textos.
     
